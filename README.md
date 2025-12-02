@@ -32,7 +32,9 @@ Pages Include:
 Technologies Used:
 -HTML,CSS
 
+
 Features :
+
 1.Pure HTML & CSS based clean UI
 
 2.Header & footer included on all pages
@@ -46,6 +48,8 @@ Features :
 6.Contact form for message submission
 
 7.Simple and responsive design structure
+
+
 
 How to Use:
 
