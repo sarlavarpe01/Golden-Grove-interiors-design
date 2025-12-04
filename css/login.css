@@ -1,4 +1,106 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f7f3ef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width:11000px;
+    height: 600px;
+    background:white ;
+    border-radius: 18px;
+    display: flex;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.login-box {
+    width: 50%;
+    background: #f7f1e5;
+    padding: 50px;
+}
+
+.login-box h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.sub-text {
+    color: #555;
+    font-size: 14px;
+    margin-bottom: 25px;
+}
+
+label {
+    font-size: 14px;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border-radius: 30px;
+    border: 1px solid #ddd;
+    margin-bottom: 15px;
+}
+.password-field {
+    position:relative;
+}
+.eye-icon {
+    position:absolute;
+    right: 15px;
+    top: 14px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.forgot {
+    font-size: 13px;
+    color:#7a7a00;
+    text-decoration: none;
+}
+.login-btn {
+    width: 100px;
+    padding: 9px;
+    background:black;
+    color: white;
+    border-radius:20px;
+    margin: 30px 0;
+    font-size: 12px;
+    cursor: pointer;
+}
+.signup{
+    font-size:  14px;  
+}
+.signup a {
+    color: #7a7a00;
+    text-decoration: none;
+}
+
+
+.right-side {
+    padding-left: 15px;
+    height:2000px;
+    width:1000px;
+}
+
+  
+
+
+
+
    *{
   margin:0;
   padding:0;
@@ -162,3 +264,4 @@
         text-align: center;
     }
 }
+
