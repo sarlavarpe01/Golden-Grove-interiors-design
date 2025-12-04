@@ -192,6 +192,9 @@ input {
     cursor: pointer;
     
 }
+.login-btn:hover {
+    background: #646463;
+}
 
 .signup{
     font-size: 14px;  
